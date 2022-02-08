@@ -23,7 +23,7 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p>{"Field Team Lead, Builder, Programmer [Choate Robotics Team]\nDean's List [All Terms]\nChoate Cross Country JV\nVice President [Choate Aerospace Association]"}</p>
         </div>
       );
     });
@@ -45,6 +45,7 @@ class Resume extends Component {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
+      const image = skills.image;
 
       return (
         <li key={skills.name}>

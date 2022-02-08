@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"SIDHARTH RAO",
-    "description":"",
+    "description":"Programmer, AI Enthusiast, Sci-Fi Aficionado",
     "image":"profilepic.jpg",
     "bio":"Hi! I'm a Junior at Choate Rosemary Hall, a High School located in Wallingford, Connecticut. I'm interested in Computer Science, AI, Engineering, Cyber Security, and Programming, mainly in Python. At school, I am the Field Team Lead, a builder, and a programmer on the choate FRC robotics team and am part of the Advanced Robotics Concentration special program. I'm a cello player in Choate's Concert Orchestra, and outside of classes, I am the Vice President of the Choate Aerospace Association Club. I volunteer at Robotics and Beyond, where I teach students Python, Machine Learning, and Edge Computing. In my free time, I mess around with Rubik's cubes, learn card magic and coin tricks, and develop automated scripts for me to use in my daily life. On this website, you can find more information about me, my accomplishments, programs, and contact me.",
     "contactmessage":"Please contact me if you have any questions or just want to reach out!",
@@ -20,74 +20,69 @@
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/sidharth-rao-074770198/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/sidharthmrao",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Choate Rosemary Hall",
+        "degree":"High School Junior",
+        "graduated":"September 2019 - Present",
+        "description":"Field Team Lead, Builder, Programmer [Choate Robotics Team]\nDean's List [All Terms]\nChoate Cross Country JV\nVice President [Choate Aerospace Association]"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Software Engineering Intern",
+        "title":"Rovicare AI",
+        "years":"June 2021 - Present",
+        "description":"Created a Containerized API to allow fast, automatic extraction and transferring of data from scanned medical forms into databases using OCR. This reduced the processing time of medical data intake of patients by over 90%. Used Python, Flask, Google Cloud Vision API, Google Cloud Storage, and Docker."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"AI and Robotics Evangelist, Volunteer",
+        "title":"Robotics and Beyond",
+        "years":"January 2021 - Present",
+        "description":"Taught elementary school students basic Python skills, Developed and taught a course in AI with Edge Computers and TensorFlow Lite to high school students, developed and taught a course in Tensorflow, SKLearn, and Machine Learning to high school students."
       }
     ],
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
+        "level":"90%",
+        "image":"PythonLogo.svg"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"Robotics",
+        "level":"85%",
+        "image":"OnshapeLogo.png"
+      },
+      {
+        "name":"Onshape CAD",
+        "level":"80%",
+        "image":"OnshapeLogo.png"
+      },
+      {
+        "name":"Cyber Security",
+        "level":"70%",
+        "image":"OnshapeLogo.png"
+      },
+      {
+        "name":"Java",
+        "level":"55%",
+        "image":"JavaLogo.png"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "level":"30%",
+        "image":"ReactLogo.png"
       }
     ]
   },

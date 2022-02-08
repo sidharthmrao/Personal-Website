@@ -140,6 +140,10 @@ header .scrolldown a:hover { color: #0762f9; }
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
+p {
+   white-space: pre-wrap;
+}
+
 ul#nav {
    min-height: 48px;
    width: auto;
