@@ -5,8 +5,9 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
+    const name = "Sidharth Rao";
     const profilepic = "images/" + this.props.data.image;
+    const resume = "files/Resume.pdf"
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -24,7 +25,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt="Sidharth Rao Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
@@ -38,8 +39,6 @@ class About extends Component {
                     <span>{name}</span>
                     <br />
                     <span>
-                      {street}
-                      <br />
                       {city} {state}, {zip}
                     </span>
                     <br />
@@ -50,7 +49,7 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href={resume} className="button" download>
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
